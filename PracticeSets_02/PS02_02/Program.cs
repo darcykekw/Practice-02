@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PS02_02
+namespace PracticeSets_02
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /*
-            * Write a program that prints all the odd numbers from 1 to 20 using a for loop. 
-            */
+            int number = 20;
+            for (int i = 1; i < number; i += 2)
+            { Console.WriteLine("This number is odd, " + i); }
         }
     }
 }
