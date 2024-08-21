@@ -12,7 +12,7 @@ namespace PracticeSets_02
         {
             int num1 = 21;
             for (int i = 2; i < num1; i += 2)
-            { Console.WriteLine("This number is, " + i); }
+            { Console.WriteLine("This number is even, " + i); }
         }
     }
 }
